@@ -1,3 +1,3 @@
 FROM python:3
 
-RUN pip install ansible boto rsync shade
+RUN pip install ansible ansible-lint boto rsync shade yamllint
