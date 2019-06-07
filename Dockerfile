@@ -1,4 +1,4 @@
-FROM python:alpine3.8
+FROM python:alpine3.9
 
 RUN apk --no-cache add git git-lfs gnupg openssh-client
 
