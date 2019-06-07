@@ -1,6 +1,6 @@
 FROM python:alpine3.9
 
-RUN apk --no-cache add git git-lfs gnupg openssh-client
+RUN apk --no-cache add git git-lfs gnupg libffi libressl openssh-client
 
 RUN ln -s ../local/bin/python /usr/bin/python
 
